@@ -1,0 +1,202 @@
+{
+ "filters": [
+  {
+   "id": "4k",
+   "groupId": "res",
+   "name": "4K",
+   "pattern": "(?i)\\b(4K|2160p|UHD)\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/4k.png",
+   "isEnabled": true
+  },
+  {
+   "id": "1080p",
+   "groupId": "res",
+   "name": "1080p",
+   "pattern": "(?i)\\b1080p\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/1080p.png",
+   "isEnabled": true
+  },
+  {
+   "id": "720p",
+   "groupId": "res",
+   "name": "720p",
+   "pattern": "(?i)\\b720p\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/720p.png",
+   "isEnabled": true
+  },
+  {
+   "id": "dv",
+   "groupId": "video",
+   "name": "DOLBY VISION",
+   "pattern": "(?i)dolby\\s*vision|\\bDoVi\\b|\\bDV\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/dv.png",
+   "isEnabled": true
+  },
+  {
+   "id": "hdr10plus",
+   "groupId": "video",
+   "name": "HDR10+",
+   "pattern": "(?i)hdr10\\+",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/hdr10plus.png",
+   "isEnabled": true
+  },
+  {
+   "id": "hdr10",
+   "groupId": "video",
+   "name": "HDR10",
+   "pattern": "(?i)\\bhdr(10)?\\b(?!\\+)",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/hdr10.png",
+   "isEnabled": true
+  },
+  {
+   "id": "hlg",
+   "groupId": "video",
+   "name": "HLG",
+   "pattern": "(?i)\\bHLG\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/hlg.png",
+   "isEnabled": true
+  },
+  {
+   "id": "imax",
+   "groupId": "video",
+   "name": "IMAX",
+   "pattern": "(?i)\\bIMAX\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/imax.png",
+   "isEnabled": true
+  },
+  {
+   "id": "hevc",
+   "groupId": "video",
+   "name": "HEVC",
+   "pattern": "(?i)\\b(hevc|x265|h\\.?265)\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/hevc.png",
+   "isEnabled": true
+  },
+  {
+   "id": "av1",
+   "groupId": "video",
+   "name": "AV1",
+   "pattern": "(?i)\\bAV1\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/av1.png",
+   "isEnabled": true
+  },
+  {
+   "id": "atmos",
+   "groupId": "audio",
+   "name": "ATMOS",
+   "pattern": "(?i)\\batmos\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/atmos.png",
+   "isEnabled": true
+  },
+  {
+   "id": "truehd",
+   "groupId": "audio",
+   "name": "TrueHD",
+   "pattern": "(?i)\\btrue-?hd\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/truehd.png",
+   "isEnabled": true
+  },
+  {
+   "id": "dtsx",
+   "groupId": "audio",
+   "name": "DTS:X",
+   "pattern": "(?i)\\bdts[:\\-]?x\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/dtsx.png",
+   "isEnabled": true
+  },
+  {
+   "id": "dtshdma",
+   "groupId": "audio",
+   "name": "DTS-HD MA",
+   "pattern": "(?i)dts-?hd[ .]?ma",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/dtshdma.png",
+   "isEnabled": true
+  },
+  {
+   "id": "ddp",
+   "groupId": "audio",
+   "name": "DD+",
+   "pattern": "(?i)\\b(DD\\+|DDP|E-?AC-?3)",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/ddp.png",
+   "isEnabled": true
+  },
+  {
+   "id": "71",
+   "groupId": "audio",
+   "name": "7.1",
+   "pattern": "\\b7\\.1\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/71.png",
+   "isEnabled": true
+  },
+  {
+   "id": "51",
+   "groupId": "audio",
+   "name": "5.1",
+   "pattern": "\\b5\\.1\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/51.png",
+   "isEnabled": true
+  },
+  {
+   "id": "remux",
+   "groupId": "source",
+   "name": "REMUX",
+   "pattern": "(?i)\\bremux\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/remux.png",
+   "isEnabled": true
+  },
+  {
+   "id": "bluray",
+   "groupId": "source",
+   "name": "BluRay",
+   "pattern": "(?i)\\bblu-?ray\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/bluray.png",
+   "isEnabled": true
+  },
+  {
+   "id": "webdl",
+   "groupId": "source",
+   "name": "WEB-DL",
+   "pattern": "(?i)\\bweb-?dl\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/webdl.png",
+   "isEnabled": true
+  },
+  {
+   "id": "ar",
+   "groupId": "lang",
+   "name": "AR",
+   "pattern": "Audio:[A-Z ]*\\bAR\\b|(?i)\\b(arabic|arb)\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/ar.png",
+   "isEnabled": true
+  },
+  {
+   "id": "en",
+   "groupId": "lang",
+   "name": "EN",
+   "pattern": "Audio:[A-Z ]*\\bEN\\b",
+   "imageURL": "https://raw.githubusercontent.com/ssgygh10111/LOGOS-/main/badges/en.png",
+   "isEnabled": true
+  }
+ ],
+ "groups": [
+  {
+   "id": "res",
+   "name": "Resolution"
+  },
+  {
+   "id": "video",
+   "name": "Video"
+  },
+  {
+   "id": "audio",
+   "name": "Audio"
+  },
+  {
+   "id": "source",
+   "name": "Source"
+  },
+  {
+   "id": "lang",
+   "name": "Audio language"
+  }
+ ]
+}
