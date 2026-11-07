@@ -1,0 +1,13 @@
+runner ip: 48.214.55.35
+identity: 200
+sections_no_token: 401
+--- headers (no token):
+HTTP/2 401 
+cache-control: no-cache
+content-type: text/html
+date: Sat, 07 Nov 2026 22:53:19 GMT
+x-content-type-options: nosniff
+x-plex-protocol: 1.0
+x-robots-tag: none,noarchive,nosnippet,notranslate,noimageindex
+content-length: 91
+
