@@ -1,0 +1,24 @@
+name: arpx-iptest
+on:
+  push:
+    branches: [arpx-iptest]
+    paths: ['.github/workflows/iptest.yml']
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: test
+        run: |
+          {
+            echo "runner ip: $(curl -s -m 10 https://api.ipify.org)"
+            echo "identity: $(curl -s -o /dev/null -m 20 -w '%{http_code}' https://cbpcn.mrip.xyz/identity)"
+            echo "sections_no_token: $(curl -s -o /dev/null -m 20 -w '%{http_code}' https://cbpcn.mrip.xyz/library/sections)"
+            echo "--- headers (no token):"
+            curl -s -I -m 20 https://cbpcn.mrip.xyz/library/sections | head -15
+          } > results.txt
+          cat results.txt
+          git config user.name "arpx-bot"; git config user.email "arpx-bot@users.noreply.github.com"
+          git add results.txt; git commit -m "results"; git push
